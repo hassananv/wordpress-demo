@@ -1,0 +1,139 @@
+{
+	"version": 2,
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"title": "Page – Content only",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "blank",
+			"title": "Blank page or post",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		}
+	],
+	"templateParts": [
+		{
+			"title": "BCGov Header",
+			"name": "header",
+			"area": "header"
+		},
+		{
+			"title": "Main Menu",
+			"name": "navigation",
+			"area": "header"
+		},
+		{
+			"title": "Search Field",
+			"name": "search-field"
+		},
+		{
+			"title": "Breadcrumb Nav – requires AIOSEO plugin",
+			"name": "breadcrumb-nav"
+		},
+		{
+			"title": "BCGov Footer",
+			"name": "footer",
+			"area": "footer"
+		}
+	],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "primary-brand-blue",
+					"color": "#003366",
+					"name": "Primary Brand Blue"
+				},
+				{
+					"slug": "primary-brand-yellow",
+					"color": "#FCBA19",
+					"name": "Primary Brand Yellow"
+				},
+				{
+					"slug": "text-colour",
+					"color": "#313132",
+					"name": "Text Colour"
+				},
+				{
+					"slug": "links",
+					"color": "#1A5A96",
+					"name": "Link Colour"
+				},
+				{
+					"slug": "blue-background",
+					"color": "#38598A",
+					"name": "Blue Background"
+				},
+				{
+					"slug": "light-background",
+					"color": "#F2F2F2",
+					"name": "Light Background"
+				},
+				{
+					"slug": "components",
+					"color": "#606060",
+					"name": "Components"
+				},
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				}
+			],
+			"gradients": []
+		},
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1440px"
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"slug": "extra-small",
+					"size": "1rem",
+					"name": "Extra small"
+				},
+				{
+					"slug": "small",
+					"size": "1.125rem",
+					"name": "Small"
+				},
+				{
+					"slug": "normal",
+					"size": "1.25rem",
+					"name": "Normal"
+				},
+				{
+					"slug": "large",
+					"size": "1.5rem",
+					"name": "Large"
+				},
+				{
+					"slug": "extra-large",
+					"size": "2rem",
+					"name": "Extra large"
+				}
+			],
+			"fontFamilies": []
+		},
+		"custom": {}
+	},
+	"styles": {
+		"blocks": {
+			"core/heading": {
+				"elements": {
+					"link": {
+						"typography": {}
+					}
+				}
+			}
+		}
+	}
+}
